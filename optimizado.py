@@ -1,4 +1,3 @@
-import cv2  # Importa la biblioteca OpenCV para procesamiento de imágenes
 import json  # Importa la biblioteca JSON para manejar datos en formato JSON
 from queue import Queue  # Importa la clase Queue de la biblioteca estándar para manejar una cola de datos
 import RPi.GPIO as GPIO  # Importa la biblioteca RPi.GPIO para controlar los pines GPIO en una Raspberry Pi
@@ -7,6 +6,7 @@ import threading  # Importa la biblioteca threading para ejecutar múltiples tar
 import numpy as np  # Importa la biblioteca NumPy para operaciones numéricas avanzadas
 import collections
 import time
+import cv2
 
 # Function to process ROI 1 and generate data
 def processOnROI1(roi4Lines,roi_center):
